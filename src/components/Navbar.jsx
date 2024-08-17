@@ -37,10 +37,10 @@ const Navbar = ({ reset, clickAboutUs, isHomeView }) => {
         className="collapse navbar-collapse nav mt-3"
         id="navbarSupportedContent"
       >
-        <ul className="navbar-nav   justify-content-lg-end justify-content-lg-start w-100">
+        <ul className="navbar-nav  mt-1  justify-content-lg-end justify-content-lg-start w-100">
           <li className="nav-item  text">
             <button
-              className="px-2 py-1 mx-3 navbarBtn fw-bold"
+              className="px-2 py-1 mx-3  navbarBtn fw-bold"
               onClick={homeButtonHandler}
             >
               Home
@@ -52,11 +52,6 @@ const Navbar = ({ reset, clickAboutUs, isHomeView }) => {
               onClick={clickAboutUs}
             >
               About Us
-            </button>
-          </li>
-          <li className="nav-item text">
-            <button className="px-2 py-1 mx-3 navbarBtn fw-bold">
-              Sign In
             </button>
           </li>
         </ul>
